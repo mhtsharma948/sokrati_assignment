@@ -1,0 +1,107 @@
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    padding-top: 30px;
+    min-height: 70px;
+    /*color: ;*/
+}
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fafafa;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float: right;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+.logo{
+    float: left;
+    font-size: 20px;
+    padding-top: 0;
+}
+
+.hadderParallax{
+    background: url("../resources/pc1.jpg") no-repeat -100px -200px;
+    height: 100vh;
+    color: #fafafa;
+}
+
+.parallax{
+    margin-top: 10%;
+    padding-left: 120px;
+    display: inline;
+}
+.parallaxContainer h1{
+    float: left;
+    text-transform: uppercase;
+}
+.parallaxContainer div{
+    padding-top: 3%;
+    float: right;
+}
+
+.parallaxContainer{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 10%;
+}
+
+.portaParallax{
+    /*margin-top: 10%;*/
+    /*padding-left: 120px;*/
+    display: inline;
+}
+.portaContainer{
+    width: 80%;
+    /*margin: auto;*/
+    overflow: hidden;
+    /*padding-top: 10%;*/
+}
+
+.sideImage{
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.footerContainer {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.email{
+    float: left;
+    padding-top: 0;
+    color: #878787;
+    font-size: 15px;
+}
+footer{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    background-color: rgba(29, 29, 29, 0.81);
+}
+footer a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #878787;
+}

@@ -5,33 +5,38 @@
     <meta name="author" content="Mohit Sharma">
     <title>Sokrati | Welcome</title>
     <link rel="stylesheet" href="./css/style.css">
+    <!--font awesome library-->
+    <link rel="stylesheet" href="resources/font-awesome-4.7.0/css/font-awesome.css">
+
+    <link rel="stylesheet" href="resources/OwlCarousel2-2.2.1/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="resources/OwlCarousel2-2.2.1/dist/assets/owl.theme.default.min.css">
 </head>
 <body>
 <!----------------------------Headder----------------------------->
 <div class="hadderParallax">
-<header>
-    <div class="container">
-        <div class="logo">
-            <div><strong>.ONE</strong>TOWN</div>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <div><strong>.ONE</strong>TOWN</div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">work</a></li>
+                    <li><a href="">services</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="">About us</a></li>
-                <li><a href="">work</a></li>
-                <li><a href="">services</a></li>
-                <li><a href="">contact</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
-<section class="parallax">
-    <div class="parallaxContainer">
-        <h1>.Creatively <br> Professional</h1>
-        <div>
-            Fully responsive website mockup PSD template. <br> free for commercial & personal use. Portfolio & contact Page included.
+    </header>
+    <section class="parallax">
+        <div class="parallaxContainer">
+            <h1>.Creatively <br> Professional</h1>
+            <div>
+                Fully responsive website mockup PSD template. <br> free for commercial & personal use. Portfolio & contact Page included.
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 </div>
 <!---------------------------Vite Porta--------------------------->
 <section class="portaParallax">
@@ -42,6 +47,46 @@
         </div>
     </div>
 </section>
+<!-----------------------------About us--------------------------->
+<div>
+    <h1>ABOUT US</h1>
+    <div>cvbn fvgbhjkcvbnhj kcvbhjkfghjk fghj dfghjk kijhbc h h  iuhgfgh jiuh gh ij h </div>
+    <div class="card">
+        <div class="image">
+            <img src="resources/">
+        </div>
+        <div class="cardDescription">
+            <span class="name">abc</span>
+            <div class="icons">
+                <i class="fa fa-skype" aria-hidden="true"></i>
+                <i class="fa fa-dribbble" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-google-plus" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="owl-carousel owl-theme">
+    <div> <img src="resources/pc1.jpg"> </div>
+    <div> <img src="resources/pc2.png"> </div>
+</div>
+<!---------------------------Newslatter--------------------------->
+<div>
+    <span>SUBSCRIBE FOR OUR NEWSLETTER</span>
+    <form>
+        <input type="email">
+        <button type="submit">SUBMIT</button>
+    </form>
+    <div class="logo">
+        <div><strong>.ONE</strong>TOWN</div>
+    </div>
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+    <i class="fa fa-facebook" aria-hidden="true"></i>
+    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+    <i class="fa fa-linkedin" aria-hidden="true"></i>
+    <i class="fa fa-skype" aria-hidden="true"></i>
+
+</div>
 <!------------------------------Footer---------------------------->
 <footer>
     <div class="footerContainer">
@@ -58,26 +103,27 @@
         </nav>
     </div>
 </footer>
-</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="resources/OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script></body>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            singleItem: true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        });
+    });
+</script>
 </html>
-
-
-
-
-
-
-
-<!--<div id="footer">
-        <nav>
-            <ul>
-                <li><a href="">About us</a></li>
-                <li><a href="">work</a></li>
-                <li><a href="">services</a></li>
-                <li><a href="">contact</a></li>
-            </ul>
-        </nav>
-        <div>
-            <span>Email: </span> <a href="mailto:mhtsharma948@gmail.com">mhtsharma948@gmail.com</a>
-            <span>ST.LOUIS: (123)456 7890</span>
-        </div>
-    </div>-->

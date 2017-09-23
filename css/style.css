@@ -70,12 +70,15 @@ button:hover{
 header {
     padding-top: 30px;
     min-height: 70px;
-    /*color: ;*/
 }
 a{
     text-decoration: none;
     text-transform: uppercase;
     color: #fafafa;
+}
+
+a:hover{
+    color: white;
 }
 ul{
     margin: 0;
@@ -94,7 +97,7 @@ li{
     padding-top: 0;
 }
 
-.hadderParallax{
+.headerParallax{
     background: url("../resources/pc1.jpg") no-repeat -100px -200px;
     height: 100vh;
     width: 100%;
@@ -171,7 +174,7 @@ footer a{
     text-align: center;
     padding: 30px 0 30px 0;
 }
-.newsLetterHadder{
+.newsLetterHeader{
     font-size: 25px;
 }
 

@@ -102,16 +102,15 @@ li{
 }
 
 .parallax{
-    margin-top: 10%;
-    padding-left: 120px;
     display: inline;
 }
 .parallaxContainer h1{
     float: left;
     text-transform: uppercase;
+    padding-top: 5%;
 }
 .parallaxContainer div{
-    padding-top: 3%;
+    padding-top: 6%;
     float: right;
 }
 
@@ -244,4 +243,54 @@ footer a{
 }
 .cardContainer1{
     padding: 0 70px 0 70px;
+}
+
+/*.image{
+    width: 230px;
+    height: 200px;
+}*/
+
+@media(max-width: 768px) {
+    header .logo, ul, li, .email, nav{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .cardContainer{
+        /*display: inline-block;*/
+        padding: 0;
+        text-align: center;
+    }
+    .cardContainer1{
+        padding: 0;
+        /*padding: 10px 0 10px 0 ;*/
+    }
+    .aboutUsContainer{
+        padding: 0;
+        height: inherit;
+    }
+    .aboutContainer{
+        width: 100%;
+    }
+    .card{
+        width: 150px;
+        height: 260px;
+    }
+    .image{
+        width: 150px;
+        height: 180px;
+    }
+    .cardDescription{
+        padding: 0;
+    }
+    @media(max-width: 414px) {
+        .card{
+            width: 105px;
+            height: 200px;
+        }
+        .image{
+            width: 105px;
+            height: 120px;
+        }
+    }
 }

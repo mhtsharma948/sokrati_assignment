@@ -21,10 +21,10 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="">About us</a></li>
-                    <li><a href="">work</a></li>
-                    <li><a href="">services</a></li>
-                    <li><a href="">contact</a></li>
+                    <li><a href="#aboutUs">About us</a></li>
+                    <li><a href="#work">work</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#contactUs">contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -41,18 +41,30 @@
 <!---------------------------Vite Porta--------------------------->
 <section class="portaParallax">
     <div class="portaContainer">
-        <img src="resources/pc2.png" class="sideImage" width="400px" height="450px">
-        <div>
-            Fully responsive website mockup PSD template.<br> free for commercial & personal use. Portfolio & contact Page included.
+        <img src="resources/porta.png" class="sideImage" width="400px" height="450px">
+        <div class="portaContainer1" style="text-align: center">
+            <div class="heading" style="text-align: center">PROIN SODALES EU MASSA VITAE PORTA</div>
+            <div class="data">
+                <span class="content container">The placeholder attribute specifies a short hint that describes the expected value of an input field (e.g. a sample value or a short description of the expected format). The short hint is displayed in the input field before the user enters a value.By default, placeholder text has a light gray color (in the browsers implementing it so far). To style it, you’ll need vendor prefix CSS properties.In order to change the default placeholder color, you should perform the following:</span>
+            </div>
         </div>
     </div>
 </section>
 <!--------------------------Features works------------------------>
+<a name="work"></a>
+<div class="heading" style="text-align: center; padding-top: 30px">FEATURED WORKS</div>
 <div class="owl-carousel owl-theme">
-    <div> <img src="resources/pc1.jpg"> </div>
+    <div> <img src="resources/works.png"> </div>
     <div> <img src="resources/pc2.png"> </div>
 </div>
+<!--------------------------Our services-------------------------->
+<a name="services"></a>
+<div style="text-align: center;">
+    <div class="heading" style="padding: 20px 0 30px 0">OUR SERVICES</div>
+    <img src="resources/services.png" width="100%">
+</div>
 <!-----------------------------About us--------------------------->
+<a name="aboutUs"></a>
 <div class="aboutUsContainer">
     <div class="aboutContainer">
         <div class="aboutUsHeading">ABOUT US</div>
@@ -125,7 +137,8 @@ The song is in praise of the philosopher Socrates, who is likened to a "supersta
     </div>
 </div>
 <!---------------------------Newsletter--------------------------->
-<div class="newsLetterContainer ">
+<a name="contactUs"></a>
+<div class="newsLetterContainer " id="contactUs">
     <div class="container ">
         <span class="newsLetterHadder">SUBSCRIBE FOR OUR NEWSLETTER</span>
         <form>

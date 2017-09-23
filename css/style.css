@@ -174,7 +174,7 @@ footer a{
 
 .heading{
     padding: 20px 0 20px 0;
-    color: #5d5d5d;
+    color: #6e6e6e;
     font-size: 25px;
 }
 
@@ -186,4 +186,54 @@ footer a{
 .info{
     padding: 30px 0 50px 0;
     color: #404040;
+}
+
+.card{
+    text-align: center;
+    border: 2px solid #c6c6c6;
+    color: #cbcbcb;
+    background-color: transparent;
+    width: 200px;
+    height: 330px;
+}
+.cardContainer{
+    padding: 30px 10px 30px 10px;
+    display: flex;
+}
+.aboutUsContainer{
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    color: whitesmoke;
+    background: url("../resources/image.jpg") no-repeat -100px -200px;
+    padding: 50px 20px 20px 0;
+}
+
+.cardDescription{
+    padding: 15px 0 15px 0;
+}
+
+.aboutContainer{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 15px 10px 15px 0;
+
+}
+
+.aboutUsHeading{
+    padding: 20px 0 20px 0;
+    color: #f3f3f3;
+    font-size: 25px;
+}
+
+.aboutUsContent{
+    padding: 0 0 30px 0;
+    color: #f3f3f3;
+    font-size: 20px;
+    display: inline;
+}
+.cardContainer1{
+    padding: 0 70px 0 70px;
+
 }
